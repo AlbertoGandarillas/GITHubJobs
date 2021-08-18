@@ -1,0 +1,15 @@
+.how-apply {
+  font-family: $font-family-poppins;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 21px;
+  color: map-get($colors-branding, "secondary");
+  &__header {
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #b9bdcf;
+    margin-bottom: 16px;
+  }
+}

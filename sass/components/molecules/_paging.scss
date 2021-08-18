@@ -1,0 +1,35 @@
+.paging {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+  &__item {
+    border: 1px solid map-get($colors-branding, "complementary");
+    border-radius: 4px;
+    font-size: map-get($font-sizes, "paging");
+    line-height: 14px;
+    padding: 11px 15px;
+    color: map-get($colors-branding, "third");
+    &:hover {
+      border: 1px solid map-get($colors-branding, "primary");
+      color: map-get($colors-branding, "primary");
+    }
+    @media (max-width: 360px) {
+      padding: 10px;
+    }
+  }
+  &--active {
+    background: map-get($colors-branding, "primary");
+    border: 1px solid map-get($colors-branding, "primary");
+    color: #fff;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &--more {
+    border: none;
+    border: 1px solid map-get($colors-branding, "third");
+  }
+  @media (max-width: 360px) {
+    justify-content: center;
+  }
+}

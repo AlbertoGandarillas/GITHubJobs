@@ -1,0 +1,9 @@
+input {
+  border: none;
+  outline: 0;
+  font-size: map-get($font-sizes, "inputs");
+  color: map-get($colors-branding, "third");
+  &::placeholder {
+    color: inherit;
+  }
+}

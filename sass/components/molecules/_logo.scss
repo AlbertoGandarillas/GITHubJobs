@@ -1,0 +1,9 @@
+.logo {
+  font-family: $font-family-poppins;
+  font-weight: bold;
+  font-size: map-get($font-sizes, "logo-font");
+  line-height: 36px;
+  span {
+    font-weight: 100;
+  }
+}

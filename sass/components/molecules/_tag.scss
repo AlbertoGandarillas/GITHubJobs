@@ -1,0 +1,15 @@
+.tag {
+  font-weight: 500;
+  font-size: map-get($font-sizes, "tag");
+  line-height: 14px;
+  color: map-get($colors-branding, "third");
+  display: flex;
+  justify-self: flex-end;
+  p {
+    padding-left: 8px;
+  }
+  @media (max-width: 360px) {
+    padding: 10px;
+    justify-self: flex-start;
+  }
+}

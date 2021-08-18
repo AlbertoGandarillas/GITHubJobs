@@ -1,0 +1,57 @@
+.job {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 32px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+  color: map-get($colors-branding, "secondary");
+  &__description {
+    width: 100%;
+  }
+  &__company {
+    font-weight: bold;
+    font-size: map-get($font-sizes, "job-company");
+    line-height: 14px;
+    margin-bottom: 8px;
+  }
+  &__title {
+    font-size: map-get($font-sizes, "job-title");
+    line-height: 21px;
+    margin-bottom: 12px;
+    @media (max-width: 360px) {
+      font-size: 1.6rem;
+    }   
+  }
+  &__details {
+    display: flex;
+    justify-content: flex-end;
+    .tag {
+      margin-left: 20px;
+      @media (max-width: 360px) {
+        margin-left: 0;
+      }
+    }
+  }
+  &__time {
+    border: 1px solid map-get($colors-branding, "secondary");
+    color: map-get($colors-branding, "secondary");
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: map-get($font-sizes, "job-time");
+    line-height: 14px;
+    padding: 6px 8px;
+  }
+  &__logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    margin-right: 16px;
+    background-color: map-get($colors-branding, "primary");
+    img {
+      display: none;
+    }
+  }
+}

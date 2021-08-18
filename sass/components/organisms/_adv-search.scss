@@ -1,0 +1,25 @@
+.search-form {
+  font-size: map-get($font-sizes, "search-form");
+  &__field {
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+  }
+  &__input {
+    border: 1px solid map-get($colors-branding, "third");
+  }
+  &__header {
+    font-family: $font-family-poppins;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: map-get($colors-branding, "third");
+    padding-bottom: 12px;
+  }
+  &__label {
+    font-family: $font-family-poppins;
+    line-height: 1.2px;
+    color: map-get($colors-branding, "secondary");
+    margin-left: 10px;
+  }
+}

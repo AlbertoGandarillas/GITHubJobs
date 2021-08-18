@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  color: map-get($colors-branding, "third");
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: map-get($font-sizes, "footer");
+  line-height: 17px;
+}
