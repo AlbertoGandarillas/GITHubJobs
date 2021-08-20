@@ -1,7 +1,7 @@
 .wrapper {
   width: 90%;
   margin: auto;
-  @media (max-width: 360px) {
+  @media (max-width: $responsive-mobile-max) {
     width: 95%;
   }
 }
@@ -23,14 +23,14 @@ header {
 main {
   display: flex;
   padding: 42px 0;
-  @media (max-width: 360px) {
+  @media (max-width: $responsive-mobile-max) {
     flex-direction: column;
   }
 }
 
 .adv-search {
   width: 35%;
-  @media (max-width: 360px) {
+  @media (max-width: $responsive-mobile-max) {
     width: 100%;
   }
 }
@@ -45,7 +45,7 @@ main {
 .job-results {
   width: 100%;
   padding-left: 32px;
-  @media (max-width: 360px) {
+  @media (max-width: $responsive-mobile-max) {
     padding-left: 0;
   }
 }
@@ -62,7 +62,7 @@ main {
       color: map-get($colors-branding, "primary");
     }
   }
-  @media (max-width: 360px) {
+  @media (max-width: $responsive-mobile-max) {
     width: 100%;
   }
 }
@@ -70,7 +70,7 @@ main {
 .job-information {
   width: 80%;
   padding-left: 70px;
-  @media (max-width: 360px) {
+  @media (max-width: $responsive-mobile-max) {
     width: 100%;
     padding-left: 0;
     margin-top: 32px;

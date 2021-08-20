@@ -13,7 +13,7 @@
       border: 1px solid map-get($colors-branding, "primary");
       color: map-get($colors-branding, "primary");
     }
-    @media (max-width: 360px) {
+    @media (max-width: $responsive-mobile-max) {
       padding: 10px;
     }
   }
@@ -29,7 +29,7 @@
     border: none;
     border: 1px solid map-get($colors-branding, "third");
   }
-  @media (max-width: 360px) {
+  @media (max-width: $responsive-mobile-max) {
     justify-content: center;
   }
 }

@@ -21,7 +21,7 @@
     font-size: map-get($font-sizes, "job-title");
     line-height: 21px;
     margin-bottom: 12px;
-    @media (max-width: 360px) {
+    @media (max-width: $responsive-mobile-max) {
       font-size: 1.6rem;
     }   
   }
@@ -30,7 +30,7 @@
     justify-content: flex-end;
     .tag {
       margin-left: 20px;
-      @media (max-width: 360px) {
+      @media (max-width: $responsive-mobile-max) {
         margin-left: 0;
       }
     }

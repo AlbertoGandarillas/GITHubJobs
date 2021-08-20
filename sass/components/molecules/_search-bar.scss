@@ -24,7 +24,7 @@
     border: none;
     padding: 18px 32px;
   }
-  @media (max-width: 360px) {
+  @media (max-width: $responsive-mobile-max) {
     width: 95%;
   }
 }

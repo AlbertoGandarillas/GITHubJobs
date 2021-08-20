@@ -140,18 +140,6 @@ input {
   color: #b9bdcf;
 }
 
-input::-webkit-input-placeholder {
-  color: inherit;
-}
-
-input:-ms-input-placeholder {
-  color: inherit;
-}
-
-input::-ms-input-placeholder {
-  color: inherit;
-}
-
 input::placeholder {
   color: inherit;
 }
@@ -190,14 +178,9 @@ a {
 }
 
 .paging {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
+  justify-content: flex-end;
+  column-gap: 10px;
 }
 
 .paging__item {
@@ -214,7 +197,7 @@ a {
   color: #1e86ff;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .paging__item {
     padding: 10px;
   }
@@ -235,26 +218,19 @@ a {
   border: 1px solid #b9bdcf;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .paging {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
 
 .search-bar {
   background: #ffffff;
-  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 2px;
 }
 
@@ -279,7 +255,7 @@ a {
   padding: 18px 32px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .search-bar {
     width: 95%;
   }
@@ -290,8 +266,6 @@ a {
   font-size: 1.2rem;
   line-height: 14px;
   color: #b9bdcf;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-self: flex-end;
 }
@@ -300,7 +274,7 @@ a {
   padding-left: 8px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .tag {
     padding: 10px;
     justify-self: flex-start;
@@ -312,12 +286,9 @@ a {
   width: 100%;
   margin-bottom: 32px;
   background: #ffffff;
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   padding: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: #334680;
 }
@@ -339,26 +310,22 @@ a {
   margin-bottom: 12px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .job__title {
     font-size: 1.6rem;
   }
 }
 
 .job__details {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .job__details .tag {
   margin-left: 20px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .job__details .tag {
     margin-left: 0;
   }
@@ -392,12 +359,8 @@ a {
 
 .search-form__field {
   padding-bottom: 18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .search-form__input {
@@ -425,18 +388,13 @@ a {
 }
 
 .full-job__header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 10px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .full-job__header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -444,7 +402,7 @@ a {
   margin-left: 17px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .full-job__time {
     width: 30%;
     margin-left: 0;
@@ -465,8 +423,6 @@ a {
 }
 
 .full-job__company {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
 }
@@ -477,12 +433,8 @@ a {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 24px 0;
   color: #b9bdcf;
   font-family: Montserrat;
@@ -496,7 +448,7 @@ a {
   margin: auto;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .wrapper {
     width: 95%;
   }
@@ -509,32 +461,21 @@ header {
 .search {
   background-image: url("../images/buildings.jfif");
   height: 138px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 8px;
   margin-top: 32px;
 }
 
 main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 42px 0;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   main {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -542,7 +483,7 @@ main {
   width: 35%;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .adv-search {
     width: 100%;
   }
@@ -550,8 +491,6 @@ main {
 
 .location-search {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #fff;
   margin-bottom: 24px;
@@ -562,7 +501,7 @@ main {
   padding-left: 32px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .job-results {
     padding-left: 0;
   }
@@ -585,7 +524,7 @@ main {
   color: #1e86ff;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .instructions {
     width: 100%;
   }
@@ -596,7 +535,7 @@ main {
   padding-left: 70px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 896px) {
   .job-information {
     width: 100%;
     padding-left: 0;
@@ -608,8 +547,7 @@ main {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -620,4 +558,9 @@ body {
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
   background-color: #f6f7fb;
+}
+
+body:after {
+  display: none;
+  content: url(../images/logo1.jfif) url(../images/logo2.jfif);
 }
